@@ -1,6 +1,6 @@
 # Pet Overflow
 
-![Workflow result](https://github.com/adneal/petoverflow/workflows/Check/badge.svg)
+![Workflow result](https://github.com/adneal/compose-challenges/workflows/Check/badge.svg?branch=week1)
 
 ## :scroll: Description
 An Android app written using Jetpack Compose and the PetFinder API.

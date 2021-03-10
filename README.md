@@ -1,4 +1,4 @@
-# Pet Overflow
+# Timer
 
 ![Workflow result](https://github.com/adneal/compose-challenges/workflows/Check/badge.svg)
 

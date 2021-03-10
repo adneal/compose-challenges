@@ -1,6 +1,6 @@
 # Timer
 
-![Workflow result](https://github.com/adneal/compose-challenges/workflows/Check/badge.svg)
+![Workflow result](https://github.com/adneal/compose-challenges/workflows/Check/badge.svg?branch=week2)
 
 ## :scroll: Description
 A simple countdown timer for various random holidays.

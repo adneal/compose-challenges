@@ -1,13 +1,13 @@
 # Pet Overflow
 
-![Workflow result](https://github.com/adneal/petoverflow/workflows/Check/badge.svg)
+![Workflow result](https://github.com/adneal/compose-challenges/workflows/Check/badge.svg)
 
 ## :scroll: Description
-An Android app written using Jetpack Compose and the PetFinder API.
+A simple countdown timer for various random holidays.
 
 
 ## :bulb: Motivation and Context
-Jetpack Compose!
+Minimal clock widgets.
 
 ## :camera_flash: Screenshots
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">&emsp;<img src="/results/screenshot_3.png" width="260">&emsp;<img src="/results/screenshot_4.png" width="260">

@@ -18,15 +18,12 @@ package org.seeingpixels.timer.app
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.material.ExperimentalMaterialApi
 import org.seeingpixels.timer.features.timer.components.CountdownTimer
 import org.seeingpixels.timer.features.timer.data.Holiday
 import org.seeingpixels.timer.theme.TimerTheme
 
-@OptIn(ExperimentalStdlibApi::class)
 class MainActivity : AppCompatActivity() {
 
-    @OptIn(ExperimentalMaterialApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

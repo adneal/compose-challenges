@@ -15,7 +15,6 @@
 
         <activity
             android:name=".app.MainActivity"
-            android:screenOrientation="landscape"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

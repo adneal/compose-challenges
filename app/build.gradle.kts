@@ -1,7 +1,6 @@
 plugins {
     id("com.android.application")
     id("koin")
-    id("com.google.secrets_gradle_plugin") version "0.5"
     kotlin("android")
     kotlin("android.extensions")
     kotlin("kapt")
@@ -17,7 +16,7 @@ android {
     buildToolsVersion(Versions.buildTools)
 
     defaultConfig {
-        applicationId = "org.seeingpixels.adoptionimpact"
+        applicationId = "org.seeingpixels.timer"
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
         minSdkVersion(Versions.minSdk)
         targetSdkVersion(Versions.targetSdk)

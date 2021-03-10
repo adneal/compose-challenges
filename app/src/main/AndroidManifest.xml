@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.seeingpixels.adoptionimpact">
+    package="org.seeingpixels.timer">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".app.PetOverflowApplication"
+        android:name=".app.TimerApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,6 +15,7 @@
 
         <activity
             android:name=".app.MainActivity"
+            android:screenOrientation="landscape"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

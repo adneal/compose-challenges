@@ -1,4 +1,4 @@
-rootProject.name = "petoverflow"
+rootProject.name = "timer"
 include(
         ":app"
 )

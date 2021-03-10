@@ -1,16 +1,8 @@
-# Pet Overflow
+# Compose Weekly Challenges
 
-![Workflow result](https://github.com/adneal/petoverflow/workflows/Check/badge.svg)
-
-## :scroll: Description
-An Android app written using Jetpack Compose and the PetFinder API.
-
-
-## :bulb: Motivation and Context
-Jetpack Compose!
-
-## :camera_flash: Screenshots
-<img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">&emsp;<img src="/results/screenshot_3.png" width="260">&emsp;<img src="/results/screenshot_4.png" width="260">
+## Description
+* [Week 1 - Pet adoption app](https://github.com/adneal/compose-challenges/tree/week1)
+* [Week 2 - Countdown timer](https://github.com/adneal/compose-challenges/tree/week2)
 
 ## License
 ```

@@ -57,7 +57,7 @@ fun LoginScreen(
         PasswordTextField()
         Spacer(modifier = Modifier.height(24.dp))
         Text(
-            text = "By click below you agree to our Terms of Service and consent to our Privacy Policy.",
+            text = "By clicking below you agree to our Terms of Service and consent to our Privacy Policy.",
             color = MaterialColors.onBackground,
             style = MaterialTypography.body2,
             textAlign = TextAlign.Center,

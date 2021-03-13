@@ -17,7 +17,7 @@ android {
     buildToolsVersion(Versions.buildTools)
 
     defaultConfig {
-        applicationId = "org.seeingpixels.adoptionimpact"
+        applicationId = "org.seeingpixels.bloom"
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
         minSdkVersion(Versions.minSdk)
         targetSdkVersion(Versions.targetSdk)

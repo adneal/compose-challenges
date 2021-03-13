@@ -1,8 +1,8 @@
 object Dependencies {
-    const val androidGradlePlugin = "com.android.tools.build:gradle:7.0.0-alpha08"
+    const val androidGradlePlugin = "com.android.tools.build:gradle:7.0.0-alpha09"
 
     object Accompanist {
-        private const val version = "0.6.0"
+        private const val version = "0.6.2"
         const val coil = "dev.chrisbanes.accompanist:accompanist-coil:$version"
         const val insets = "dev.chrisbanes.accompanist:accompanist-insets:$version"
     }
@@ -27,8 +27,8 @@ object Dependencies {
     }
 
     object Compose {
-        const val version = "1.0.0-beta01"
-        const val navigationVersion = "1.0.0-alpha08"
+        const val version = "1.0.0-beta02"
+        const val navigationVersion = "1.0.0-alpha09"
         const val snapshot = "7141639"
         const val snapshotUrl =
             "https://androidx.dev/snapshots/builds/$snapshot/artifacts/repository/"

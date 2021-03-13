@@ -1,4 +1,4 @@
-rootProject.name = "petoverflow"
+rootProject.name = "bloom"
 include(
         ":app"
 )

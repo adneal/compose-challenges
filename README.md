@@ -1,8 +1,18 @@
-# Compose Weekly Challenges
+# Timer
 
-## Description
-* [Week 1 - Pet adoption app](https://github.com/adneal/compose-challenges/tree/week1)
-* [Week 2 - Countdown timer](https://github.com/adneal/compose-challenges/tree/week2)
+![Workflow result](https://github.com/adneal/compose-challenges/workflows/Check/badge.svg?branch=week3)
+
+## :scroll: Description
+An Android app to help you manage your garden and browse various plants.
+
+
+## :bulb: Motivation and Context
+Bloom design
+
+## :camera_flash: Screenshots
+<img src="/results/screenshot_1_light.png" width="260">&emsp;<img src="/results/screenshot_2_light.png" width="260">&emsp;<img src="/results/screenshot_3_light.png" width="260">
+
+<img src="/results/screenshot_1_dark.png" width="260">&emsp;<img src="/results/screenshot_2_dark.png" width="260">&emsp;<img src="/results/screenshot_3_dark.png" width="260">
 
 ## License
 ```

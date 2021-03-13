@@ -10,9 +10,9 @@ An Android app to help you manage your garden and browse various plants.
 Bloom design
 
 ## :camera_flash: Screenshots
-<img src="/results/screenshot_1_light.png" width="260">&emsp;<img src="/results/screenshot_2_light.png" width="260">&emsp;<img src="/results/screenshot_3_light.png" width="260">
+<img src="/results/screenshot_1_light.jpg" width="260">&emsp;<img src="/results/screenshot_2_light.jpg" width="260">&emsp;<img src="/results/screenshot_3_light.jpg" width="260">
 
-<img src="/results/screenshot_1_dark.png" width="260">&emsp;<img src="/results/screenshot_2_dark.png" width="260">&emsp;<img src="/results/screenshot_3_dark.png" width="260">
+<img src="/results/screenshot_1_dark.jpg" width="260">&emsp;<img src="/results/screenshot_2_dark.jpg" width="260">&emsp;<img src="/results/screenshot_3_dark.jpg" width="260">
 
 ## License
 ```

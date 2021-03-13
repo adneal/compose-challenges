@@ -3,6 +3,8 @@
 ## Description
 * [Week 1 - Pet adoption app](https://github.com/adneal/compose-challenges/tree/week1)
 * [Week 2 - Countdown timer](https://github.com/adneal/compose-challenges/tree/week2)
+* [Week 3 - Bloom (speed challenge)](https://github.com/adneal/compose-challenges/tree/week3)
+
 
 ## License
 ```

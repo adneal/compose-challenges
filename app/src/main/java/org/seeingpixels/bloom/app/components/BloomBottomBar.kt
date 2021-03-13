@@ -23,6 +23,7 @@ import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.AccountCircle
 import androidx.compose.material.icons.rounded.Favorite
+import androidx.compose.material.icons.rounded.FavoriteBorder
 import androidx.compose.material.icons.rounded.Home
 import androidx.compose.material.icons.rounded.ShoppingCart
 import androidx.compose.runtime.Composable
@@ -83,7 +84,7 @@ enum class BottomNavigation(
     val icon: ImageVector
 ) {
     Home(label = "Home", icon = Icons.Rounded.Home),
-    Favorites(label = "Favorites", icon = Icons.Rounded.Favorite),
+    Favorites(label = "Favorites", icon = Icons.Rounded.FavoriteBorder),
     Profile(label = "Profile", icon = Icons.Rounded.AccountCircle),
     Cart(label = "Cart", icon = Icons.Rounded.ShoppingCart)
 }

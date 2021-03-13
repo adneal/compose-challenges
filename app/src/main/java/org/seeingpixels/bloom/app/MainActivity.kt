@@ -20,10 +20,17 @@ import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.ui.Modifier
 import androidx.core.view.WindowCompat
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.navigate
 import androidx.navigation.compose.rememberNavController
 import dev.chrisbanes.accompanist.insets.systemBarsPadding
 import org.seeingpixels.bloom.features.home.components.HomeScreen
+import org.seeingpixels.bloom.features.login.components.LoginScreen
+import org.seeingpixels.bloom.features.welcome.components.WelcomeScreen
 import org.seeingpixels.bloom.theme.BloomTheme
+import org.seeingpixels.bloom.theme.MaterialColors
+import org.seeingpixels.bloom.theme.SystemUiController
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,13 +40,32 @@ class MainActivity : AppCompatActivity() {
         setContent {
             val navController = rememberNavController()
             BloomTheme {
-//                WelcomeScreen(
-//                    modifier = Modifier.systemBarsPadding(),
-//                    onCreateAccountClick = { /*TODO*/ },
-//                    onLoginClick = { /*TODO*/ }
-//                )
-//                LoginScreen(modifier = Modifier.systemBarsPadding())
-                HomeScreen(modifier = Modifier.systemBarsPadding())
+                NavHost(navController = navController, startDestination = "welcome") {
+                    composable(route = "welcome") {
+                        WelcomeScreen(
+                            modifier = Modifier.systemBarsPadding(),
+                            onCreateAccountClick = { /*TODO*/ },
+                            onLoginClick = { navController.navigate(route = "login") }
+                        )
+                        SystemUiController(window).apply {
+                            setStatusBarColor(color = MaterialColors.primary)
+                        }
+                    }
+                    composable(route = "login") {
+                        LoginScreen(modifier = Modifier.systemBarsPadding()) {
+                            navController.navigate(route = "home")
+                        }
+                        SystemUiController(window).apply {
+                            setStatusBarColor(color = MaterialColors.background)
+                        }
+                    }
+                    composable(route = "home") {
+                        HomeScreen(modifier = Modifier.systemBarsPadding())
+                        SystemUiController(window).apply {
+                            setStatusBarColor(color = MaterialColors.background)
+                        }
+                    }
+                }
             }
         }
     }
